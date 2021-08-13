@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProCodeIT.Template.BLL.Infra\ProCodeIT.Template.BLL.Infra.csproj" />
+    <ProjectReference Include="..\ProCodeIT.Template.DAL.Infra\ProCodeIT.Template.DAL.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

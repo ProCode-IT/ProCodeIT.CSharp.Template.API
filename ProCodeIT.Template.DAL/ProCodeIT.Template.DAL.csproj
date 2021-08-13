@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProCodeIT.Template.DAL.Infra\ProCodeIT.Template.DAL.Infra.csproj" />
+    <ProjectReference Include="..\ProCodeIT.Template.Models\ProCodeIT.Template.Models.csproj" />
+  </ItemGroup>
+
+</Project>
